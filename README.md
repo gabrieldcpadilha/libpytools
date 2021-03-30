@@ -5,6 +5,8 @@ Neste módulo é mostrado como contribuir com códigos opensource.
 
 Link do curso: [Python Pro](http://python.pro.br/)
 
+[![Build Status](https://travis-ci.org/gabrieldcpadilha/libpytools.svg?branch=main)](https://travis-ci.org/gabrieldcpadilha/libpytools)
+
 Suportada versão 3 do Python
 
 Para instalar:
