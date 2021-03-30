@@ -5,6 +5,8 @@ Neste módulo é mostrado como contribuir com códigos opensource.
 
 Link do curso: [Python Pro](http://python.pro.br/)
 
+Suportada versão 3 do Python
+
 Tópicos abordados:
 
 1. Git
