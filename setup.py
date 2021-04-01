@@ -14,7 +14,9 @@ def read(fname):
 # Provided as an attribute, so you can append to these instead
 # of replicating them:
 standard_exclude = ["*.py", "*.pyc", "*$py.class", "*~", ".*", "*.bak"]
-standard_exclude_directories = [".*", "CVS", "_darcs", "./build", "./dist", "EGG-INFO", "*.egg-info"]
+standard_exclude_directories = [
+    ".*", "CVS", "_darcs", "./build", "./dist", "EGG-INFO", "*.egg-info"
+]
 
 
 # (c) 2005 Ian Bicking and contributors; written for Paste (http://pythonpaste.org)
@@ -93,8 +95,8 @@ def find_package_data(
 
 
 PACKAGE = "libpytools"
-NAME = "prj-libpytools"
-DESCRIPTION = "Módulo para exemplificar construção de projetos Python."
+NAME = PACKAGE
+DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Gabriel Padilha"
 AUTHOR_EMAIL = "gdcpadilha@gmail.com"
 URL = "https://github.com/gabrieldcpadilha/libpytools"
@@ -104,15 +106,15 @@ setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
-    long_description="Módulo para exemplificar construção de projetos Python.",
+    long_description=read('README.md'),
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license=read('LICENSE'),
+    license="GNU AFFERO GENERAL PUBLIC LICENSE",
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
-    classifiers=[  # https://pypi.org/pypi?%3Aaction=list_classifiers
+    classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
         "Intended Audience :: Developers",
@@ -123,7 +125,7 @@ setup(
         "Framework :: Pytest",
     ],
     install_requires=[
-        'requests'  # pode usar >=2.18.4 ou <=3.0 caso deseja especificar uma versão.
+        'requests'
     ],
     zip_safe=False,
 )
