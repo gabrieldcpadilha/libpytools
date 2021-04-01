@@ -5,7 +5,7 @@ Neste módulo é mostrado como contribuir com códigos opensource.
 
 Link do curso: [Python Pro](http://python.pro.br/)
 
-[![Build Status](https://travis-ci.org/gabrieldcpadilha/libpytools.svg?branch=main)](https://travis-ci.org/gabrieldcpadilha/libpytools)
+
 [![Updates](https://pyup.io/repos/github/gabrieldcpadilha/libpytools/shield.svg)](https://pyup.io/repos/github/gabrieldcpadilha/libpytools/)
 [![Python 3](https://pyup.io/repos/github/gabrieldcpadilha/libpytools/python-3-shield.svg)](https://pyup.io/repos/github/gabrieldcpadilha/libpytools/)
 
